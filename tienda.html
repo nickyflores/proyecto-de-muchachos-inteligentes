@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tienda.css">
+    <title>Tienda | Muchachos Inteligentes</title>
+</head>
+<body>
+
+    <header id="top">
+        <nav>
+            <div class="logo">Muchachos inteligentes</div>
+            <ul class="inicio-links">
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Index.html#mas-de-nosotros">Más de nosotros</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="Contacto.html">Nuestro contacto</a></li>
+            </ul>
+            <button class="btn-carrito" id="abrirCarrito">🛒 <span id="contador">0</span></button>
+        </nav>
+
+        <div class="header-contenido container">
+
+            <div class="header-texto">
+                <h1>Tienda High-Tech: <samp>Equipamiento e Innovación</samp></h1>
+                <p>
+                    Explorá nuestra selección de dispositivos, componentes
+                    y hardware de última generación. Seleccionamos e integramos
+                    la tecnología más avanzada del mercado para potenciar
+                    tu productividad, proyectos y experiencia tecnológica
+                    al siguiente nivel.
+                </p>
+
+                <div class="botones">
+                    <a href="https://www.instagram.com/_.nick64?stkn=MW1ha2NraDY1ZHF3dw==" target="_blank" class="btn-ig">instagram</a>
+                </div>
+            </div>
+
+            <div class="tilt-card" id="tiltCard">
+                <div class="tilt-glow"></div>
+                <img src="imagenes-tec/modelo1.jpg" alt="Modelo con estética cyberpunk">
+            </div>
+
+        </div>
+    </header>
+
+    <section class="catalogo" id="catalogo">
+        <h2>Catálogo</h2>
+        <p>Equipamiento seleccionado de última generación. Agregá lo que te guste al carrito y coordinamos la entrega.</p>
+        <div class="productos" id="productos"></div>
+    </section>
+
+    <!-- Carrito lateral -->
+    <div class="fondo-carrito" id="fondoCarrito"></div>
+    <aside class="carrito" id="carrito">
+        <div class="carrito-top">
+            <h3>Tu carrito</h3>
+            <button id="cerrarCarrito">✕</button>
+        </div>
+        <div class="carrito-items" id="carritoItems"></div>
+        <div class="carrito-total">Total <span id="total">$0</span></div>
+        <button class="btn-finalizar" id="finalizar">Finalizar pedido</button>
+    </aside>
+
+    <script src="tienda.js"></script>
+
+<!--aca lo de la barra del final-->
+
+ <footer class="footer">
+        <div class="footer-content">
+
+            <div class="link">
+                <h3>Empresa</h3>
+                <ul>
+                    <li><a href="Index.html#mas-de-nosotros">Acerca de nosotros</a></li>
+                    <li><a href="Index.html#sobre-nosotros">¿Quiénes somos?</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Preguntanos</h3>
+                <ul>
+                    <li><a href="Contacto.html">Danos tu opinión</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Creadora de la pagina</h3>
+                <ul>
+                    <li><a href="https://github.com/nickyflores">Nicole Flores</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Nuestros IG</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/_.nick64?stkn=MW1ha2NraDY1ZHF3dw==" target="_blank">Nicole Flores</a></li>
+                     <li><a href="https://www.instagram.com/leitoo.g16?stkn=ZDV5aGJ2eTdiNjYy" target="_blank">Gramajo Leandro</a></li>
+                      <li><a href="https://www.instagram.com/benx9204?utm_source=qr&stkn=MTM5cWFtdXRqcmVoOQ==" target="_blank">Baeza Benjamin</a></li>
+                       <li><a href="https://www.instagram.com/carlitos.seguel?stkn=N29oNG56YzNmY2hp" target="_blank">Seguel Carlos</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Muchachos Inteligentes · Cutral-Co, Neuquén</p>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+
+
+</body>
+</html>
